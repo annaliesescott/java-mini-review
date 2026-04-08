@@ -6,7 +6,7 @@ public class Practice {
      * Example:
      * 
      * input:
-     * {"welcome", "to", "sdev", "220"}
+     * {"welcome", "to", "cs", "123"}
      * 
      * printed output:
      * welcome
@@ -77,8 +77,8 @@ public class Practice {
     public static void main(String[] args) {
         System.out.println();
         System.out.println("///// Print items /////");
-        System.out.println("Calling printItems(new String[]{\"welcome\", \"to\", \"sdev\", \"220\"})");
-        printItems(new String[]{"welcome", "to", "sdev", "220"});
+        System.out.println("Calling printItems(new String[]{\"welcome\", \"to\", \"cs\", \"123\"})");
+        printItems(new String[]{"welcome", "to", "cs", "123"});
         System.out.println();
         System.out.println("Calling printItems(new String[]{\"hello\", \"world\"})");
         printItems(new String[]{"hello", "world"});
