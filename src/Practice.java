@@ -80,7 +80,7 @@ public class Practice {
             if(words[i]==null){
                 return true;
             }
-            else if(words[i].charAt(0) == 'a' || words[i].charAt(1) == 'A'){
+            else if(words[i].indexOf("a") == 0|| words[i].indexOf("A") == 0){
                 continue;
             }
             else{
